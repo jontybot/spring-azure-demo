@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'SpringDemoAzureTushar'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F31BB8287D7E495C8D0CEE1717D96F6E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_42CE3D7AC522480FBDA007F092FFF335 }}
           package: '*.jar'
